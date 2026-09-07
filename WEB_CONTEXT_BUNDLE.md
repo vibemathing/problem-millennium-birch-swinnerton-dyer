@@ -208,72 +208,97 @@ This file is generated from repository truth and bounded for the web channel. It
     "acceptance": {
       "policy": "solution-admission-v1"
     },
-    "aliases": [],
+    "aliases": [
+      "Birch and Swinnerton-Dyer Conjecture",
+      "BSD Conjecture"
+    ],
     "allowed_axioms": [
-      "none"
+      "classical-mathematics",
+      "standard-algebraic-number-theory",
+      "standard-arithmetic-geometry"
     ],
     "assumptions": [
-      "This record must never be treated as an active research problem."
+      "Only hypotheses explicitly present in the frozen official statement and the selected accepted branch are admitted.",
+      "Finite computation, restricted models, conditional lemmas and special cases do not close the universal root statement.",
+      "Statement-faithfulness and current-status review must close before Result admission."
     ],
     "constraints": {
       "allowed_adapters": [
-        "template-validation-v1"
+        "source-fidelity-review-v1",
+        "lean-obligation-v1"
       ],
       "allowed_methods": [
-        "discovery"
+        "discovery",
+        "derivation",
+        "computation",
+        "proof",
+        "formalization"
       ],
-      "max_attempts": 1,
+      "max_attempts": 20,
       "runtime": {
-        "max_output_bytes": 65536,
-        "max_retries": 1,
-        "max_transitions": 10,
-        "timeout_seconds": 60
+        "max_output_bytes": 5242880,
+        "max_retries": 3,
+        "max_transitions": 300,
+        "timeout_seconds": 1800
       }
     },
-    "created_at": "2026-09-06T00:00:00Z",
+    "created_at": "2026-08-16T18:20:00+08:00",
     "definitions": [
       {
-        "definition": "A non-admitted draft record used only to validate the physical public repository template.",
-        "term": "template placeholder"
+        "definition": "The rank of the finitely generated abelian group E(Q).",
+        "term": "algebraic rank"
+      },
+      {
+        "definition": "The order of vanishing of L(E,s) at s=1.",
+        "term": "analytic rank"
       }
     ],
     "domain": {
-      "description": "Template-only placeholder domain; not a mathematical research question.",
+      "description": "定义在 Q 上的椭圆曲线、其有理点群与 Hasse–Weil L 函数在 s=1 的行为。",
       "objects": [
-        "template-placeholder"
+        "elliptic curves E over Q",
+        "the finitely generated abelian group E(Q)",
+        "the Hasse–Weil L-function L(E,s)"
       ]
     },
-    "lifecycle": "draft",
+    "lifecycle": "active",
     "msc": [
-      "00A00"
+      "11G05",
+      "11G40"
     ],
-    "problem_id": "problem:template-placeholder",
+    "problem_id": "problem:millennium-birch-swinnerton-dyer",
     "quantifiers": [
       {
-        "domain": "a reviewed public canonical ProblemContract supplied by the repository builder",
-        "kind": "find",
+        "domain": "elliptic curves defined over Q",
+        "kind": "forall",
         "variables": [
-          "replacement_problem"
+          "E"
         ]
       }
     ],
     "schema_version": "1.0.0",
     "sources": [
       {
-        "retrieved_at": "2026-09-06T00:00:00Z",
-        "source": "Vibe Mathing public Web Harness",
-        "source_record_id": "public-template-placeholder-v1",
-        "url": "https://github.com/vibemathing/vibe-mathing-problem-public-template"
+        "retrieved_at": "2026-08-16T18:20:00+08:00",
+        "source": "Clay Mathematics Institute",
+        "source_record_id": null,
+        "url": "https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/"
+      },
+      {
+        "retrieved_at": "2026-08-16T18:20:00+08:00",
+        "source": "Clay Mathematics Institute official problem descriptions",
+        "source_record_id": null,
+        "url": "https://www.claymath.org/wp-content/uploads/2022/02/MPPc.pdf"
       }
     ],
     "statement": {
-      "language": "en",
-      "text": "This is a non-research placeholder. Replace it with exactly one reviewed public ProblemContract before creating a public problem repository.",
+      "language": "zh-CN",
+      "text": "对每条定义在有理数域 Q 上的椭圆曲线 E，证明其 Hasse–Weil L 函数 L(E,s) 在 s=1 的零点阶数等于有限生成阿贝尔群 E(Q) 的秩；或者给出一条定义在 Q 上、经严格认证而违反该等式的椭圆曲线。数域推广、阿贝尔簇推广、函数域版本、有限曲线样本的一致性或仅数值计算 L 值均不能替代该命题。",
       "version": 1
     },
-    "title": "Vibe Mathing public problem repository template placeholder",
-    "updated_at": "2026-09-06T00:00:00Z"
+    "title": "Birch–Swinnerton-Dyer 猜想",
+    "updated_at": "2026-09-07T08:10:00Z"
   },
-  "problem_contract_sha256": "e64cd03254e03dd661eade23243c3c21793fc2d8bffa2d33c172cf8ed2e7f940"
+  "problem_contract_sha256": "ab4afa6a9024ab0187168c78b1c71a0fdca2525c1528d403b332186e2c98d9f9"
 }
 ```

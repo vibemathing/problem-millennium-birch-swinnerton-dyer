@@ -6,6 +6,13 @@
       "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
       "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
       "tree_sha256": "0c4fb720b158c0fc109c3c162110f8af00cd20d1a3eec72fae8d117e601a1f8e"
+    },
+    {
+      "harness_snapshot_sha256": "983736c1093931804019bcd1572fe70f1c9cf17cc8ee86e90f959bc29735f505",
+      "harness_version": "1.2.5",
+      "tree_sha256": "26c2ed2a6aba67b7f1f8687cbc15a742b561406a65665818cbc93c8d546c4ab4",
+      "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
+      "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1"
     }
   ],
   "repository": "vibemathing/problem-millennium-birch-swinnerton-dyer",

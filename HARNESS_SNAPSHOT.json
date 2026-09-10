@@ -1020,12 +1020,12 @@
       "sha256": "52a5c17534263eb4065c436960824dfc20858c2c7b8530fdf4674634f84c0b57"
     },
     {
-      "bytes": 2517,
+      "bytes": 2533,
       "layer": "web_channel",
       "mode": "0644",
       "owner": "harness",
       "path": ".github/workflows/web-candidate-gate.yml",
-      "sha256": "1f0cff65c4276da4b6ec87f162c2cd83b1da74ed9703ac641b1395bf94ed75d6"
+      "sha256": "1c3c0f72ff40480ab0e4ef750eba0491795a20bad13499fe67845b173f3ecf2f"
     },
     {
       "bytes": 109,
@@ -1916,7 +1916,7 @@
       "sha256": "7af42453d37f28f641e06d56e7e78415117031ccd73e61dd71f157522cbff764"
     }
   ],
-  "harness_version": "1.2.5",
+  "harness_version": "1.2.6",
   "problem": {
     "admission": "canonical_admitted",
     "contract_sha256": "ab4afa6a9024ab0187168c78b1c71a0fdca2525c1528d403b332186e2c98d9f9",
@@ -1941,5 +1941,5 @@
     "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
     "worktree_dirty": false
   },
-  "tree_sha256": "26c2ed2a6aba67b7f1f8687cbc15a742b561406a65665818cbc93c8d546c4ab4"
+  "tree_sha256": "01a2fc1819cbd54a8cf344d45969d10ac844549880bb6a4dabf3e096a0556ab7"
 }

@@ -1,0 +1,22 @@
+{
+  "status": "proposal_only",
+  "source": {
+    "source": "Andrew Wiles, Clay Mathematics Institute official problem description",
+    "source_record_id": null,
+    "url": "https://www.claymath.org/wp-content/uploads/2022/05/birchswin.pdf",
+    "retrieved_at": "2026-09-30T00:13:00Z",
+    "revision": "retrieved-2026-09-30; SHA-256 identifies downloaded PDF bytes",
+    "content_sha256": "c25dc966dd0051a60ac04593aef344d8aa89a51abedccbedadc5dc42099ddc6a",
+    "quote": "The Taylor expansion of L(C, s) at s = 1 has the form",
+    "license": {
+      "name": "Copyright; no redistribution license identified; short quotation and citation only",
+      "attribution": "Andrew Wiles, official Clay problem description, page 2",
+      "url": null
+    }
+  },
+  "bytes": 142908,
+  "hash_scope": "Actual downloaded PDF bytes, not extracted text, URL, or Git blob",
+  "source_handling": "No full paper redistributed. Original landing-page source remains in unchanged canonical record; proposed consolidated source retains only inspected official PDF. Any source-list migration requires owner review.",
+  "license_review": "No open redistribution permission asserted. Upstream rights review remains required.",
+  "statement_comparison": "Original statement, statement.version, quantifiers, assumptions and acceptance unchanged. BSD rank statement is distinguished from the refined leading coefficient formula."
+}

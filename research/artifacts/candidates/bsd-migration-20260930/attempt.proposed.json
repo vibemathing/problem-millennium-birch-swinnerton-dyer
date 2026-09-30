@@ -1,0 +1,23 @@
+{
+  "attempt_id": "attempt:bsd-migration-20260930",
+  "problem_id": "problem:millennium-birch-swinnerton-dyer",
+  "route_id": "route:bsd-migration-20260930",
+  "obligation_graph_id": "graph:bsd-migration-20260930",
+  "problem_contract_sha256": "ab4afa6a9024ab0187168c78b1c71a0fdca2525c1528d403b332186e2c98d9f9",
+  "generator": "dot candidate generator; unverified model identity",
+  "objective": "For nonzero odd integer n and P=(x,y) on y²=x³−n²x over Q with v₂(x)<0, v₂(x(2^kP))=v₂(x)−2k for all k≥0; hence P has infinite order. Specializing to n=5, P=(25/4,75/8) gives rank≥1, not rank=1 or an analytic rank claim.",
+  "method": "proof",
+  "lifecycle": "blocked",
+  "started_at": "2026-09-30T00:13:00Z",
+  "completed_at": null,
+  "inputs": [
+    "https://www.claymath.org/wp-content/uploads/2022/05/birchswin.pdf"
+  ],
+  "claims": [
+    "For nonzero odd integer n and P=(x,y) on y²=x³−n²x over Q with v₂(x)<0, v₂(x(2^kP))=v₂(x)−2k for all k≥0; hence P has infinite order. Specializing to n=5, P=(25/4,75/8) gives rank≥1, not rank=1 or an analytic rank claim."
+  ],
+  "artifacts": [
+    "research/artifacts/candidates/bsd-migration-20260930/RESEARCH.zh.md",
+    "research/artifacts/candidates/bsd-migration-20260930/execute.py"
+  ]
+}

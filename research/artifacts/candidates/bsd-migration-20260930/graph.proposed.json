@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "graph_id": "graph:bsd-migration-20260930",
+  "problem_id": "problem:millennium-birch-swinnerton-dyer",
+  "attempt_id": "attempt:bsd-migration-20260930",
+  "route_id": "route:bsd-migration-20260930",
+  "problem_contract_sha256": "ab4afa6a9024ab0187168c78b1c71a0fdca2525c1528d403b332186e2c98d9f9",
+  "root_obligation_id": "obligation:bsd-migration-20260930-root",
+  "obligations": [
+    {
+      "obligation_id": "obligation:bsd-migration-20260930-root",
+      "kind": "root_claim",
+      "statement": {
+        "text": "对每条定义在有理数域 Q 上的椭圆曲线 E，证明其 Hasse–Weil L 函数 L(E,s) 在 s=1 的零点阶数等于有限生成阿贝尔群 E(Q) 的秩；或者给出一条定义在 Q 上、经严格认证而违反该等式的椭圆曲线。数域推广、阿贝尔簇推广、函数域版本、有限曲线样本的一致性或仅数值计算 L 值均不能替代该命题。",
+        "language": "zh-CN",
+        "formal_declaration": null
+      },
+      "statement_sha256": "ede703d78d5e11e076266236be54c2e4de7a05b0448646f8f6647117c6133eb4",
+      "dependencies": [
+        "obligation:bsd-migration-20260930-bridge"
+      ],
+      "acceptance": {
+        "required_capabilities": [
+          "statement_faithfulness",
+          "human_review"
+        ],
+        "allowed_candidate_kinds": [
+          "proof",
+          "computation"
+        ]
+      },
+      "source_refs": [
+        "https://www.claymath.org/wp-content/uploads/2022/05/birchswin.pdf"
+      ]
+    },
+    {
+      "obligation_id": "obligation:bsd-migration-20260930-bridge",
+      "kind": "lemma",
+      "statement": {
+        "text": "Establish the rank equality for every elliptic curve over Q, including arbitrary analytic rank at least two; one rank lower-bound example does not imply this.",
+        "language": "en",
+        "formal_declaration": null
+      },
+      "statement_sha256": "1c350cc4afbb4e14622c32d9e026fef13cdcd716814e1a4c62fddfdb30043f23",
+      "dependencies": [],
+      "acceptance": {
+        "required_capabilities": [
+          "statement_faithfulness",
+          "human_review"
+        ],
+        "allowed_candidate_kinds": [
+          "proof",
+          "computation"
+        ]
+      },
+      "source_refs": [
+        "https://www.claymath.org/wp-content/uploads/2022/05/birchswin.pdf"
+      ]
+    },
+    {
+      "obligation_id": "obligation:bsd-migration-20260930-leaf",
+      "kind": "lemma",
+      "statement": {
+        "text": "For nonzero odd integer n and P=(x,y) on y²=x³−n²x over Q with v₂(x)<0, v₂(x(2^kP))=v₂(x)−2k for all k≥0; hence P has infinite order. Specializing to n=5, P=(25/4,75/8) gives rank≥1, not rank=1 or an analytic rank claim.",
+        "language": "en",
+        "formal_declaration": null
+      },
+      "statement_sha256": "0dce5e0c110ae9e1c046e88c22f04f60d5ef3c815a81a9d2c16e38dc6f8092d8",
+      "dependencies": [],
+      "acceptance": {
+        "required_capabilities": [
+          "statement_faithfulness",
+          "human_review"
+        ],
+        "allowed_candidate_kinds": [
+          "proof",
+          "computation"
+        ]
+      },
+      "source_refs": [
+        "https://www.claymath.org/wp-content/uploads/2022/05/birchswin.pdf"
+      ]
+    }
+  ],
+  "created_at": "2026-09-30T00:13:00Z",
+  "supersedes": null
+}

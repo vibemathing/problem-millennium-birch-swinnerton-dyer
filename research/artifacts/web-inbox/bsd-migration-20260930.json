@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-millennium-birch-swinnerton-dyer",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1359977499,
+    "node_id": "R_kgDOUQ-cGw",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:millennium-birch-swinnerton-dyer",
+  "problem_contract_sha256": "ab4afa6a9024ab0187168c78b1c71a0fdca2525c1528d403b332186e2c98d9f9",
+  "harness_snapshot_sha256": "c025b51f1fb8fcde75cb6feee29e5864307379092c74425c938680bf8f765291",
+  "base_revision": "5506238ec3e113c851f4f5d0a0cbc02ea6b1de95",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:bsd-migration-20260930",
+  "route_id": "route:bsd-migration-20260930",
+  "graph_id": "graph:bsd-migration-20260930",
+  "obligation_id": "obligation:bsd-migration-20260930-leaf",
+  "generator": {
+    "principal": "vibemathing",
+    "model_label": "dot",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-bsd-migration-20260930",
+    "issue_number": 4,
+    "issue_url": "https://github.com/vibemathing/problem-millennium-birch-swinnerton-dyer/issues/4",
+    "pull_request_number": null,
+    "pull_request_url": null
+  },
+  "objective": "Submit prior exploratory draft and schema migration proposals for trusted review; not a canonical research launch.",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:bsd-migration-20260930-draft",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/bsd-migration-20260930/RESEARCH.zh.md",
+      "sha256": "b0ad5a86c57c2d4f9558b2464def96486d04311242e18baabe6931da36faabf3"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:bsd-migration-20260930-leaf",
+      "text": "For nonzero odd integer n and P=(x,y) on y²=x³−n²x over Q with v₂(x)<0, v₂(x(2^kP))=v₂(x)−2k for all k≥0; hence P has infinite order. Specializing to n=5, P=(25/4,75/8) gives rank≥1, not rank=1 or an analytic rank claim.",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "Only hypotheses explicitly present in the frozen official statement and the selected accepted branch are admitted.",
+    "Finite computation, restricted models, conditional lemmas and special cases do not close the universal root statement.",
+    "Statement-faithfulness and current-status review must close before Result admission."
+  ],
+  "risks": [
+    "No pre-admitted Attempt/Graph exists. Pending proposal only.",
+    "No complete root proof, kernel replay or trusted verifier receipt."
+  ],
+  "open_obligations": [
+    "obligation:bsd-migration-20260930-root",
+    "obligation:bsd-migration-20260930-bridge",
+    "obligation:bsd-migration-20260930-leaf"
+  ],
+  "failed_route_proposal": null,
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-millennium-birch-swinnerton-dyer",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "5506238ec3e113c851f4f5d0a0cbc02ea6b1de95",
+      "relation": "exact"
+    }
+  ],
+  "requested_verification": [
+    "statement_faithfulness",
+    "human_review"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-30T00:13:00Z",
+  "admission_request": {
+    "request_id": "bsd-migration-20260930",
+    "graph_id": "graph:bsd-migration-20260930",
+    "obligation_id": "obligation:bsd-migration-20260930-leaf",
+    "route_id": "route:bsd-migration-20260930",
+    "attempt_id": "attempt:bsd-migration-20260930",
+    "problem_contract_sha256": "ab4afa6a9024ab0187168c78b1c71a0fdca2525c1528d403b332186e2c98d9f9"
+  }
+}
